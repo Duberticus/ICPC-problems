@@ -34,11 +34,13 @@ public class barbells{
             bars.add(bar1);
             bars.add(bar2);
 
-            System.out.println(b);
-            System.out.println(p);
+           // System.out.println(b);
+            //System.out.println(p);
 
-            System.out.println(bars);
-            System.out.println(plates);
+            //System.out.println(bars);
+            //System.out.println(plates);
+            handler handle = new handler( plates, bars, b, p);
+            handle.printStuff();
 
             //takes input from the sample but not dynamically programmed yet.
             //stores them in array lists but might want to use a different and faster alg for the handling of data.
