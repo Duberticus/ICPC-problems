@@ -31,5 +31,22 @@ public class handler{
         System.out.println(b);
     }
 
+    //dublplicate checker 
+    public static ArrayList<Integer> addNums(ArrayList<Integer> plates){
+        for(int i = 0; i <= plates.size()-1;i++){
+            for(int k = i + 1;k <= plates.size()-1;k++){
+                if(i == k){
+
+                }
+            }
+        }
+                
+            }
+        }
+        
+
+        return plates;
+    }
+
 
 }
