@@ -40,7 +40,8 @@ public class barbells{
             //System.out.println(bars);
             //System.out.println(plates);
             handler handle = new handler( plates, bars, b, p);
-            handle.printStuff();
+           // handle.printStuff();
+            handle.doubleChecker(plates);
 
             //takes input from the sample but not dynamically programmed yet.
             //stores them in array lists but might want to use a different and faster alg for the handling of data.
