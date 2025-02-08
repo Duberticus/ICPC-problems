@@ -41,8 +41,12 @@ public class barbells{
             //System.out.println(plates);
             handler handle = new handler( plates, bars, b, p);
            // handle.printStuff();
-            handle.doubleChecker(plates);
+           // handle.doubleChecker(plates);
 
+            ArrayList<Integer> resultP = handler.doubleChecker(plates);
+            ArrayList<Integer> resultB_P = handler.barbellAdder(bars, resultP);
+
+//feb 6 2025
             //takes input from the sample but not dynamically programmed yet.
             //stores them in array lists but might want to use a different and faster alg for the handling of data.
             //rough idea of how it works.
@@ -59,5 +63,5 @@ public class barbells{
             //store weight in array maybe?
             //check for dupes
             //still inefficient run time
-    }
+    }       // feb 7th 2025
 }
